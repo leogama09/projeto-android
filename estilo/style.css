@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063D1E;
+
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'iDroid', cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a.externo::after {
+    content: '\00A0\1F517'
+}
+
+
+
